@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Baloch" representedClassName=".Baloch" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gilgit" representedClassName=".Gilgit" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="KPk" representedClassName=".KPk" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pakistan" representedClassName=".Pakistan" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Punjab" representedClassName=".Punjab" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sindh" representedClassName=".Sindh" syncable="YES">
+        <attribute name="fact" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Baloch" positionX="18" positionY="72" width="128" height="60"/>
+        <element name="Gilgit" positionX="-36" positionY="18" width="128" height="60"/>
+        <element name="KPk" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="Pakistan" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Punjab" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="Sindh" positionX="0" positionY="54" width="128" height="60"/>
+    </elements>
 </model>

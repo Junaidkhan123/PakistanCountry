@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		392951C41EB09DBC00665101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392951C31EB09DBC00665101 /* AppDelegate.swift */; };
-		392951C61EB09DBC00665101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392951C51EB09DBC00665101 /* ViewController.swift */; };
 		392951C91EB09DBC00665101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392951C71EB09DBC00665101 /* Main.storyboard */; };
 		392951CC1EB09DBC00665101 /* MyCountryFacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392951CA1EB09DBC00665101 /* MyCountryFacts.xcdatamodeld */; };
 		392951CE1EB09DBC00665101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392951CD1EB09DBC00665101 /* Assets.xcassets */; };
 		392951D11EB09DBC00665101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392951CF1EB09DBC00665101 /* LaunchScreen.storyboard */; };
+		392951D91EB0A3EF00665101 /* FactsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392951D81EB0A3EF00665101 /* FactsTableVC.swift */; };
+		392951DB1EB0A4CD00665101 /* ProvinceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392951DA1EB0A4CC00665101 /* ProvinceCell.swift */; };
+		3997167A1EB1618C0014BF6C /* KPk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997166E1EB1618C0014BF6C /* KPk+CoreDataClass.swift */; };
+		3997167B1EB1618C0014BF6C /* KPk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997166F1EB1618C0014BF6C /* KPk+CoreDataProperties.swift */; };
+		3997167C1EB1618C0014BF6C /* Pakistan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716701EB1618C0014BF6C /* Pakistan+CoreDataClass.swift */; };
+		3997167D1EB1618C0014BF6C /* Pakistan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716711EB1618C0014BF6C /* Pakistan+CoreDataProperties.swift */; };
+		3997167E1EB1618C0014BF6C /* Gilgit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716721EB1618C0014BF6C /* Gilgit+CoreDataClass.swift */; };
+		3997167F1EB1618C0014BF6C /* Gilgit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716731EB1618C0014BF6C /* Gilgit+CoreDataProperties.swift */; };
+		399716801EB1618C0014BF6C /* Baloch+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716741EB1618C0014BF6C /* Baloch+CoreDataClass.swift */; };
+		399716811EB1618C0014BF6C /* Baloch+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716751EB1618C0014BF6C /* Baloch+CoreDataProperties.swift */; };
+		399716821EB1618C0014BF6C /* Punjab+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716761EB1618C0014BF6C /* Punjab+CoreDataClass.swift */; };
+		399716831EB1618C0014BF6C /* Punjab+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716771EB1618C0014BF6C /* Punjab+CoreDataProperties.swift */; };
+		399716841EB1618C0014BF6C /* Sindh+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716781EB1618C0014BF6C /* Sindh+CoreDataClass.swift */; };
+		399716851EB1618C0014BF6C /* Sindh+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399716791EB1618C0014BF6C /* Sindh+CoreDataProperties.swift */; };
+		39D9B0DB1EB0ADE500F2302D /* InformationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9B0DA1EB0ADE500F2302D /* InformationClass.swift */; };
+		39D9B0DD1EB0B09800F2302D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9B0DC1EB0B09800F2302D /* DetailVC.swift */; };
+		8378BEDF65A6A1166C9D08EA /* Pods_MyCountryFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A5CC75803BB918AD7D90A /* Pods_MyCountryFacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26185D68108EA761CF33CC5A /* Pods-MyCountryFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCountryFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCountryFacts/Pods-MyCountryFacts.debug.xcconfig"; sourceTree = "<group>"; };
 		392951C01EB09DBC00665101 /* MyCountryFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCountryFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392951C31EB09DBC00665101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		392951C51EB09DBC00665101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		392951C81EB09DBC00665101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		392951CB1EB09DBC00665101 /* MyCountryFacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCountryFacts.xcdatamodel; sourceTree = "<group>"; };
 		392951CD1EB09DBC00665101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392951D01EB09DBC00665101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392951D21EB09DBC00665101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392951D81EB0A3EF00665101 /* FactsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactsTableVC.swift; path = MyCountryFacts/FactsTableVC.swift; sourceTree = "<group>"; };
+		392951DA1EB0A4CC00665101 /* ProvinceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceCell.swift; sourceTree = "<group>"; };
+		3997166E1EB1618C0014BF6C /* KPk+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "KPk+CoreDataClass.swift"; path = "../KPk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3997166F1EB1618C0014BF6C /* KPk+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "KPk+CoreDataProperties.swift"; path = "../KPk+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399716701EB1618C0014BF6C /* Pakistan+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pakistan+CoreDataClass.swift"; path = "../Pakistan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399716711EB1618C0014BF6C /* Pakistan+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pakistan+CoreDataProperties.swift"; path = "../Pakistan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399716721EB1618C0014BF6C /* Gilgit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Gilgit+CoreDataClass.swift"; path = "../Gilgit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399716731EB1618C0014BF6C /* Gilgit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Gilgit+CoreDataProperties.swift"; path = "../Gilgit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399716741EB1618C0014BF6C /* Baloch+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Baloch+CoreDataClass.swift"; path = "../Baloch+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399716751EB1618C0014BF6C /* Baloch+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Baloch+CoreDataProperties.swift"; path = "../Baloch+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399716761EB1618C0014BF6C /* Punjab+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Punjab+CoreDataClass.swift"; path = "../Punjab+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399716771EB1618C0014BF6C /* Punjab+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Punjab+CoreDataProperties.swift"; path = "../Punjab+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		399716781EB1618C0014BF6C /* Sindh+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Sindh+CoreDataClass.swift"; path = "../Sindh+CoreDataClass.swift"; sourceTree = "<group>"; };
+		399716791EB1618C0014BF6C /* Sindh+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Sindh+CoreDataProperties.swift"; path = "../Sindh+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		39D9B0DA1EB0ADE500F2302D /* InformationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationClass.swift; sourceTree = "<group>"; };
+		39D9B0DC1EB0B09800F2302D /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		A79A5CC75803BB918AD7D90A /* Pods_MyCountryFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCountryFacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE12BA5A48326B6E072EE155 /* Pods-MyCountryFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCountryFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCountryFacts/Pods-MyCountryFacts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8378BEDF65A6A1166C9D08EA /* Pods_MyCountryFacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225851C7AE8B762BFBB680DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26185D68108EA761CF33CC5A /* Pods-MyCountryFacts.debug.xcconfig */,
+				FE12BA5A48326B6E072EE155 /* Pods-MyCountryFacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22955798B4B0F6DD04687022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79A5CC75803BB918AD7D90A /* Pods_MyCountryFacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		392951B71EB09DBB00665101 = {
 			isa = PBXGroup;
 			children = (
 				392951C21EB09DBC00665101 /* MyCountryFacts */,
 				392951C11EB09DBC00665101 /* Products */,
+				225851C7AE8B762BFBB680DB /* Pods */,
+				22955798B4B0F6DD04687022 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +110,11 @@
 		392951C21EB09DBC00665101 /* MyCountryFacts */ = {
 			isa = PBXGroup;
 			children = (
+				399716861EB161CB0014BF6C /* Generated */,
+				39D9B0E01EB0B5F000F2302D /* Model */,
+				39D9B0DF1EB0B5DB00F2302D /* View */,
+				39D9B0DE1EB0B5A100F2302D /* Controller */,
 				392951C31EB09DBC00665101 /* AppDelegate.swift */,
-				392951C51EB09DBC00665101 /* ViewController.swift */,
 				392951C71EB09DBC00665101 /* Main.storyboard */,
 				392951CD1EB09DBC00665101 /* Assets.xcassets */,
 				392951CF1EB09DBC00665101 /* LaunchScreen.storyboard */,
@@ -67,6 +124,51 @@
 			path = MyCountryFacts;
 			sourceTree = "<group>";
 		};
+		399716861EB161CB0014BF6C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3997166F1EB1618C0014BF6C /* KPk+CoreDataProperties.swift */,
+				399716711EB1618C0014BF6C /* Pakistan+CoreDataProperties.swift */,
+				399716731EB1618C0014BF6C /* Gilgit+CoreDataProperties.swift */,
+				399716751EB1618C0014BF6C /* Baloch+CoreDataProperties.swift */,
+				399716771EB1618C0014BF6C /* Punjab+CoreDataProperties.swift */,
+				399716791EB1618C0014BF6C /* Sindh+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		39D9B0DE1EB0B5A100F2302D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39D9B0DC1EB0B09800F2302D /* DetailVC.swift */,
+				392951D81EB0A3EF00665101 /* FactsTableVC.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		39D9B0DF1EB0B5DB00F2302D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				392951DA1EB0A4CC00665101 /* ProvinceCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		39D9B0E01EB0B5F000F2302D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39D9B0DA1EB0ADE500F2302D /* InformationClass.swift */,
+				3997166E1EB1618C0014BF6C /* KPk+CoreDataClass.swift */,
+				399716701EB1618C0014BF6C /* Pakistan+CoreDataClass.swift */,
+				399716721EB1618C0014BF6C /* Gilgit+CoreDataClass.swift */,
+				399716741EB1618C0014BF6C /* Baloch+CoreDataClass.swift */,
+				399716761EB1618C0014BF6C /* Punjab+CoreDataClass.swift */,
+				399716781EB1618C0014BF6C /* Sindh+CoreDataClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 392951D51EB09DBC00665101 /* Build configuration list for PBXNativeTarget "MyCountryFacts" */;
 			buildPhases = (
+				FB5D8D8EDA1A0D80C47E6FB6 /* [CP] Check Pods Manifest.lock */,
 				392951BC1EB09DBB00665101 /* Sources */,
 				392951BD1EB09DBB00665101 /* Frameworks */,
 				392951BE1EB09DBB00665101 /* Resources */,
+				7F44BE037AD405D8D99425C0 /* [CP] Embed Pods Frameworks */,
+				DD9006BC181F3F8C60BF0C32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +239,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F44BE037AD405D8D99425C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCountryFacts/Pods-MyCountryFacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9006BC181F3F8C60BF0C32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCountryFacts/Pods-MyCountryFacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5D8D8EDA1A0D80C47E6FB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		392951BC1EB09DBB00665101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3997167B1EB1618C0014BF6C /* KPk+CoreDataProperties.swift in Sources */,
+				3997167C1EB1618C0014BF6C /* Pakistan+CoreDataClass.swift in Sources */,
+				399716851EB1618C0014BF6C /* Sindh+CoreDataProperties.swift in Sources */,
+				39D9B0DB1EB0ADE500F2302D /* InformationClass.swift in Sources */,
+				3997167A1EB1618C0014BF6C /* KPk+CoreDataClass.swift in Sources */,
+				3997167D1EB1618C0014BF6C /* Pakistan+CoreDataProperties.swift in Sources */,
+				399716831EB1618C0014BF6C /* Punjab+CoreDataProperties.swift in Sources */,
+				399716801EB1618C0014BF6C /* Baloch+CoreDataClass.swift in Sources */,
+				399716811EB1618C0014BF6C /* Baloch+CoreDataProperties.swift in Sources */,
+				399716821EB1618C0014BF6C /* Punjab+CoreDataClass.swift in Sources */,
+				399716841EB1618C0014BF6C /* Sindh+CoreDataClass.swift in Sources */,
 				392951CC1EB09DBC00665101 /* MyCountryFacts.xcdatamodeld in Sources */,
-				392951C61EB09DBC00665101 /* ViewController.swift in Sources */,
+				392951D91EB0A3EF00665101 /* FactsTableVC.swift in Sources */,
 				392951C41EB09DBC00665101 /* AppDelegate.swift in Sources */,
+				3997167E1EB1618C0014BF6C /* Gilgit+CoreDataClass.swift in Sources */,
+				3997167F1EB1618C0014BF6C /* Gilgit+CoreDataProperties.swift in Sources */,
+				392951DB1EB0A4CD00665101 /* ProvinceCell.swift in Sources */,
+				39D9B0DD1EB0B09800F2302D /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +430,7 @@
 		};
 		392951D61EB09DBC00665101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26185D68108EA761CF33CC5A /* Pods-MyCountryFacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyCountryFacts/Info.plist;
@@ -274,6 +443,7 @@
 		};
 		392951D71EB09DBC00665101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE12BA5A48326B6E072EE155 /* Pods-MyCountryFacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyCountryFacts/Info.plist;
@@ -303,6 +473,7 @@
 				392951D71EB09DBC00665101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
