@@ -148,21 +148,21 @@ class DetailVC: UIViewController {
         }
         else if globalValue == 1
         {
-            prevButton.isEnabled = true;
+            prevButton.isHidden = false;
             
             if x < info.kpkInfo.count
             {
                 
                 detailLabel?.text = info.kpkInfo[x]
                 x = x + 1 ;
-                
             }
-            if x == info.pakInfo1.count         {
-                nextButton.isEnabled = false;
+            if x == info.kpkInfo.count         {
+                nextButton.isHidden = true
                 x = x - 1 ;
             }
+            
         }
-     
+        
         }
 
     }
