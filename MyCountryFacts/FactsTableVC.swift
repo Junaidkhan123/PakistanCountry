@@ -15,11 +15,8 @@ class FactsTableVC: UITableViewController {
     var objectArray = [InformationClass]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        provinceNames = ["Pakistan","Khyber PakhtunKhwa","Punjab","Gilgit Baltistan","Sindh","Balochistan"];
-        
-        
-          
-        
+        provinceNames = ["Pakistan","Khyber PakhtunKhwa","Punjab","Gilgit Baltistan","Sindh","Balochistan"]
+        self.navigationController?.hidesBarsOnSwipe = true 
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

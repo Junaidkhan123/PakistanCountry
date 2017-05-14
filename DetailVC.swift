@@ -11,7 +11,6 @@ import CoreData
 class DetailVC: UIViewController {
     
     @IBOutlet weak var detialView: UIView!
-    
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var prevButton: UIButton!
     
@@ -19,6 +18,10 @@ class DetailVC: UIViewController {
     var info =  InformationClass()
     var x = 0
     override func viewDidLoad() {
+        if x == 0
+        {
+            prevButton.isHidden = true
+        }
         
         super.viewDidLoad()
         do
@@ -82,20 +85,55 @@ class DetailVC: UIViewController {
 
     func getRandomColor() -> UIColor
     {
-        let getRed = CGFloat(drand48())
+        let getRed = CGFloat(drand48()) 
         let getGreen = CGFloat(drand48())
         let getBlue = CGFloat(drand48())
         return UIColor(red: getRed, green: getGreen, blue: getBlue, alpha: 0.7)
     }
  
     @IBAction func prevPressed(_ sender: Any) {
+        detialView.backgroundColor = getRandomColor()
+       if globalValue == 0
+       {
+        
+        if x < info.pakInfo1.count && x > 0
+        {
+            detailLabel.text = info.pakInfo1[x-1]
+            nextButton.isHidden = false
+            x -= 1
+        }
+        if x == 0
+        {
+            prevButton.isHidden = true
+            x += 1
+            
+        }
+        }
+        if globalValue == 1
+        {
+            
+            if x < info.kpkInfo.count && x > 0
+            {
+                detailLabel.text = info.kpkInfo[x-1]
+                nextButton.isHidden = false
+                x -= 1
+            }
+            if x == 0
+            {
+                prevButton.isHidden = true
+                x += 1
+                
+            }
+        }
+     
+   
     }
 
     @IBAction func nextPressed(_ sender: Any) {
+        detialView.backgroundColor = getRandomColor()
         if globalValue == 0
         {
-            detialView.backgroundColor = getRandomColor()
-            prevButton.isEnabled = true;
+            prevButton.isHidden = false;
             
             if x < info.pakInfo1.count
             {
@@ -104,13 +142,12 @@ class DetailVC: UIViewController {
                     x = x + 1 ;
             }
             if x == info.pakInfo1.count         {
-                nextButton.isEnabled = false;
+                nextButton.isHidden = true
                 x = x - 1 ;
             }
         }
         else if globalValue == 1
         {
-            detialView.backgroundColor = getRandomColor()
             prevButton.isEnabled = true;
             
             if x < info.kpkInfo.count

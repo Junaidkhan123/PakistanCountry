@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99BF06094BAD3A604CD6AE5A63090A1A75CB39DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B973F164BF67BC823C11B5B7073C905CFC0C6791" : 9223372036854775807,
+    "99BF06094BAD3A604CD6AE5A63090A1A75CB39DA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B93B9D6-9474-4446-AFC4-B7F72E966480",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B973F164BF67BC823C11B5B7073C905CFC0C6791" : "",
+    "99BF06094BAD3A604CD6AE5A63090A1A75CB39DA" : "MyCountryFacts\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyCountryFacts",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyCountryFacts.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Junaidkhan123\/PakistanCountry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99BF06094BAD3A604CD6AE5A63090A1A75CB39DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Junaidkhan123\/open-search-movie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B973F164BF67BC823C11B5B7073C905CFC0C6791"
+    }
+  ]
+}
